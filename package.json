@@ -21,12 +21,14 @@
     "eslint": "^5.10.0",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
-    "moleculer-repl": "^0.5.3"
+    "moleculer-repl": "^0.5.7"
   },
   "dependencies": {
-    "moleculer-web": "^0.8.0",
     "ioredis": "^4.2.0",
-    "moleculer": "^0.13.0"
+    "moleculer": "^0.13.0",
+    "moleculer-db": "^0.7.9",
+    "moleculer-db-adapter-mongo": "^0.4.2",
+    "moleculer-web": "^0.8.0"
   },
   "engines": {
     "node": ">= 8.x.x"
