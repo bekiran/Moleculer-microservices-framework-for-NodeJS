@@ -16,8 +16,10 @@ module.exports = {
 				// Access to any actions in all services under "/api" URL
 				"**"
 			],
+			//To access the new product service via REST API
 			aliases:{
-				"REST products" : "products"
+				//"REST products" key in aliases creates the common REST paths and links them to the products service actions
+				"REST products" : "products" 
 			}
 		}],
 
